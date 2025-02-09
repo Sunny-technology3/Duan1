@@ -1,0 +1,9 @@
+body{
+    background-color:rgb(17, 17, 87);
+}
+
+h1,
+h2{
+    color: brown;
+    font-style: italic;
+}
