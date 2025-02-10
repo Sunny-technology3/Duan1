@@ -12,7 +12,7 @@ input:checked ~ img{
     /* visibility: hidden; */
 }
 
-#line_1, a[href]{
+#line_1, a[href], p{
     color: aliceblue;
 }
 
@@ -27,4 +27,8 @@ h1,
 h2{
     color: brown;
     font-style: italic;
+}
+
+h2:target{
+    color: aliceblue;
 }
