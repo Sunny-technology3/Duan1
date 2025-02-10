@@ -12,8 +12,15 @@ input:checked ~ img{
     /* visibility: hidden; */
 }
 
-#line_1{
+#line_1, a[href]{
     color: aliceblue;
+}
+
+a:hover{
+    color: brown;
+}
+a:active{
+    color: aqua;
 }
 
 h1,
