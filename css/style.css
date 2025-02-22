@@ -1,8 +1,14 @@
+html{
+    font-size: 52.5%
+}
+
 body{
-    background-color:rgb(27, 13, 68);
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color:rgb(242, 240, 246);
 }
 
 img{
+    margin-right: 10rem;
     transition: 1.5s;
 }
 
@@ -12,13 +18,12 @@ input:checked ~ img{
     /* visibility: hidden; */
 }
 
-#line_1, a[href], p{
-    color: aliceblue;
+a{
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
 }
 
-a:hover{
-    color: brown;
-}
 a:active{
     color: aqua;
 }
@@ -30,5 +35,50 @@ h2{
 }
 
 h2:target{
-    color: aliceblue;
+    color: rgb(193, 106, 60);
+}
+
+.name, .tt{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 99.9rem;
+    color: rgb(230, 225, 225);
+    width: 10rem;
+    padding: 0.8rem 1.6rem;
+    text-align: center;
+    display: inline;
+}
+
+a, p, h1, h2, table, ul, ol{
+    font-size: 2rem;
+}
+
+a:hover{
+    background-color: brown;
+    color: black;
+}
+
+p{
+    text-indent: 1rem;
+}
+
+.box{
+    width: 70rem;
+    height: 30rem;
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    overflow: auto;
+}
+
+.box::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background: black;
+}
+.box::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: white;
+}
+.box::-webkit-scrollbar-thumb:hover{
+    background: red;
 }
